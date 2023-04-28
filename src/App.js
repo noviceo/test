@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import './App.css';
 import Home from "./pages/Home";
 import AddIndex from "./pages/AddIndex";
 import CommentPage from "./pages/CommentPage";
@@ -10,6 +11,7 @@ import SignUpCompleted from "./pages/SignUpCompleted";
 import WikiEdit from "./pages/WikiEdit";
 import WikiEditCompleted from "./pages/WikiEditCompleted";
 import WikiViewer from "./pages/WikiViewer";
+import { useEffect } from 'react';
 
 
 function App() {
@@ -17,7 +19,7 @@ function App() {
             <Router>
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route path="/index" element={<AddIndex />} />
+                    <Route path="/입실렌티" element={<WikiViewer />} />
                 </Routes>
             </Router>
         )

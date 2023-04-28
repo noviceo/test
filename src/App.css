@@ -1,0 +1,36 @@
+.header {
+    height: 80%;
+    background: blue;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    background: grey;
+}
+
+.redbutton {
+    color: white;
+    background-color: red;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 6px;
+    border:none;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    padding: 5px;
+    margin-bottom: 200px;
+}
+
+.index {
+    border: solid black 2px;
+    padding: 5px;
+    width: 20%;
+}
+
+a {
+    text-decoration-line: none;
+}
