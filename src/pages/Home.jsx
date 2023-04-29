@@ -7,7 +7,7 @@ function Home() {
                 <Header />
             </div>
             <div className="body">
-                <button className="redbutton">입실렌티 함께하기!</button>
+                <button className="redbutton">입실렌티 함께하기싫어싫어싫어!</button>
             </div>
             
         </div>
