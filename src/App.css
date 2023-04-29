@@ -5,9 +5,9 @@
 
 .body {
     display: flex;
-    justify-content: center;
     height: 500px;
     background: grey;
+    justify-content: center;
 }
 
 .redbutton {
@@ -22,7 +22,8 @@
     height: 50px;
     cursor: pointer;
     padding: 5px;
-    margin-bottom: 200px;
+    position: absolute;
+    bottom: 20%;
 }
 
 .index {
